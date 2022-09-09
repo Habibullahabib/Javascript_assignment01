@@ -56,7 +56,7 @@ a:hover {
   font-size: 15px;
 }
 .hero-image {
-  background-image:url("img/slider.jpg");
+  background-image:url("../img/slider.jpg");
   height: 380px ;
   background-position: center;
   background-repeat: no-repeat;
@@ -214,15 +214,20 @@ a:hover {
 
 .aside-section{
   padding: 3px;
+  padding-left: 7px;
+  padding-top: 10px;
 }
 
 .aside-image img{
  width: 100%;
  border-radius: 10px;
  margin-top: 25px;
+
+ height: 201px;
+}
  
   
-}
+
 .aside-image{
  position: relative;
 }
@@ -269,10 +274,12 @@ a:hover {
  
 }
 .aside-author{
- padding: 5px;
+ padding: 5px; 
+ font-size: 16px;
+  
 }
 .aside-content{
-  font-size: 14px;
+  font-size: 18px;
   padding-top: 8px;
   padding-left: 5px;
   text-align: left;
@@ -326,6 +333,7 @@ right:0px;
   padding-bottom:2px;
   font-size: 12px;
   color: blue;
+  font-size: 17px;
 }
  
    
@@ -416,10 +424,37 @@ right:0px;
    
 }
 
- 
+.pagination > li > a:hover{
+  background-color:  rgb(0, 102, 255) !important;
+  color: white;
+}
+
+
+
+
+
 
  
 
+ 
+ 
+.skeleton{
+   
+  animation: skeleton-loading 1s linear infinite alternate;
+
+}
+@keyframes skeleton-loading{
+    0%{background-color: rgb(190, 191, 210);}
+    100%{background-color: rgb(245, 235, 235);}
+    0%{background-color: rgb(255, 255, 255);}
+    
+}
+
+
+
+
+
+ 
  /* Mobile app*/
  
 @media only screen and (max-width: 600px) {
