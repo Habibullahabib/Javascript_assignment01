@@ -57,8 +57,8 @@ Takes two numbers and returns the sum.
 
 
 ## Live Demo
-https://habibullahabib.github.io/Assignment_js/
+https://habibullahabib.github.io/Javascript_assignment01/
 
 ## github link
 
-https://github.com/Habibullahabib/Assignment_js.git
+https://github.com/Habibullahabib/Javascript_assignment01.git
